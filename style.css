@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #302F40;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F1F26;
+    border: #333259 solid;
+    border-radius: 35px;
+    min-height: 10vh;
+}
+
+#myName {
+    color: #303E8C;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+#navList {
+    list-style: none;
+}
+
+#navList li {
+    display: inline;
+    padding: 2rem;
+    text-decoration: underline;
+    font-size: 2rem;
+    color: white;
+}
+
+#navList li:hover {
+    color: #4369D9;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+
+main article {
+    border: 3px solid #333259;
+    border-radius: 5px;
+    flex: 2;
+    background-image: url(./Assets/myfirstapp.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+}
+
+main article h2 {
+    background-color: #1F1F26;
+    color: #303E8C;
+    position: absolute;
+    top: -26px;
+    left: 0px;
+    width: 295px;
+    border: solid #333259;
+    border-radius: 0px 0px 10px 0px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+aside {
+    border: hidden ;
+    border-radius: 10px;
+    flex: 1;
+    background-image: linear-gradient(180deg, #1F1F26, #302F40);
+    position: relative;
+}
+
+aside h2 {
+    font-size: 2rem;
+    color: #303E8C;
+    position: absolute;
+    left: 14px;
+    top: -21px;
+}
+
+aside p {
+    position: absolute;
+    left: 25px;
+    top: 53px;
+    color: white;
+}
+
+section {
+    flex: 1 0 100px;
+}
+
+#firstapplink {
+    background-color: #1F1F26;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 224px;
+    border: solid #333259;
+    border-radius: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+#firstapplink:hover {
+    color: #4369D9;
+}
+
+#firestappimage {
+    width: 100%;
+}
