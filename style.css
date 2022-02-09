@@ -15,7 +15,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #1F1F26;
     border: #333259 solid;
@@ -26,6 +26,10 @@ header {
 
 h1 {
     font-size: 3rem;
+}
+
+a {
+    color: white;
 }
 
 .contactLink {
@@ -44,6 +48,15 @@ main {
     justify-content: center;
 }
 
+article {
+    margin-bottom: 5rem;
+}
+
+footer {
+    text-align: center;
+    margin: 2rem;
+}
+
 .container {
     display: flex;
     /* border: #333259 solid .5rem; */
@@ -57,6 +70,7 @@ main {
 
 .project {
     color: white;
+    margin: 1rem;
 }
 
 .project h2 {
@@ -69,6 +83,13 @@ main {
     border-radius: 48rem;
 }
 
+.AboutMe {
+    text-align: center;
+    font-size: 3rem;
+    width: 33.3%;
+    margin: 0 33.3%;
+}
+
 #myName {
     color: #303E8C;
     font-size: 5rem;
@@ -79,6 +100,10 @@ main {
     list-style: none;
 }
 
+/* #navList {
+    display: inline;
+} */
+
 #navList li {
     display: inline;
     padding: 2rem;
@@ -87,8 +112,36 @@ main {
     color: white;
 }
 
-#navList li:hover {
+#navList li a:hover {
     color: #4369D9;
     cursor: pointer;
 }
 
+#SocailMedia {
+    text-align: center;
+    width: 100%;
+}
+
+#SocialMedia ul {
+    list-style: none;
+}
+
+#SocialMedia ul li {
+    display: inline;
+    padding: 2rem;
+    text-decoration: underline;
+    font-size: 2rem;
+    color: white;
+}
+
+@media screen and (max-width: 918px) {
+    header {
+      flex-direction: column;
+    }
+  }
+
+@media screen and (max-width: 918px) {
+    .container {
+      flex-direction: column;
+    }
+  }
