@@ -134,6 +134,10 @@ footer {
     color: white;
 }
 
+#selfportrait {
+    border-radius: 29rem;
+}
+
 @media screen and (max-width: 918px) {
     header {
       flex-direction: column;
